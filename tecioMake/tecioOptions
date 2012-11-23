@@ -10,6 +10,10 @@
 
     TECIO_FLAGS = -DMAKEARCHIVE -DLINUX -DUSEENUM -DTHREED -U_WIN32
 
+#elif defined(darwin)
+
+    TECIO_FLAGS = -DMAKEARCHIVE -DLINUX -DLINUX64 -DUSEENUM -DTHREED -U_WIN32 -DLONGIS64 -DDARWIN
+
 #else
 
 #   error architecture not supported for compiling tecio.
