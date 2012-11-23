@@ -1,0 +1,8 @@
+https://github.com/OpenFOAM/OpenFOAM-2.1.x
+
+commit d90028a5f3e74a49697c40f3de9b7cc14baefd2c
+Merge: 2bc6075 ea00a6f
+Author: andy <andy>
+Date:   Tue Nov 20 09:57:15 2012 +0000
+
+    Merge branch 'master' of github.com:OpenFOAM/OpenFOAM-2.1.x
