@@ -5,11 +5,9 @@ This is an adaptation of <tt>foamToTecplot360</tt> from the original [http://www
 * Tecplot is a registered trademark of Tecplot, Inc.
 
 Most of the original sources used in this [https://github.com/wyldckat/localFoamToTecplot360 repository], have been retrieved from:
-* [https://github.com/OpenFOAM/OpenFOAM-2.1.x]
-* [https://github.com/OpenFOAM/ThirdParty-2.1.x]
-* [https://github.com/OpenFOAM/OpenFOAM-2.0.x]
-* [https://github.com/OpenFOAM/ThirdParty-2.0.x]
 * [https://github.com/OpenCFD/OpenFOAM-1.7.x]
+* [https://github.com/OpenFOAM/OpenFOAM-2.0.x]
+* [https://github.com/OpenFOAM/OpenFOAM-2.1.x]
 
 
 = License =
@@ -86,7 +84,7 @@ unzip of17
 wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of17.tar.gz"
 tar -xf of17.tar.gz</pre>
 
-Then to into the newly unpacked folder:
+Then go into the newly unpacked folder:
 <pre>cd localFoamToTecplot360-of17</pre>
 </li>
 
@@ -99,7 +97,7 @@ unzip of20
 wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of20.tar.gz"
 tar -xf of20.tar.gz</pre>
 
-Then to into the newly unpacked folder:
+Then go into the newly unpacked folder:
 <pre>cd localFoamToTecplot360-of20</pre>
 </li>
 
@@ -112,7 +110,7 @@ unzip of21
 wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of21.tar.gz"
 tar -xf of21.tar.gz</pre>
 
-Then to into the newly unpacked folder:
+Then go into the newly unpacked folder:
 <pre>cd localFoamToTecplot360-of21</pre>
 </li>
 
