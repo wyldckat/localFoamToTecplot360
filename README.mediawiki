@@ -53,17 +53,82 @@ The ones that start with <tt>of</tt> indicate for which versions of OpenFOAM thi
 
 <li>Now you can launch the build process:
 <pre>./Allwmake</pre>
-It will do everything pretty much autonomous, although midway it asks for you to press the ''Enter'' keyboard key when the <tt>libtecio</tt> library is built.
+It will do everything pretty much autonomous, although midway it asks for you to press the ''Enter'' keyboard key when the <tt>libtecio</tt> library is finished unpacking.
 </li>
 
 <li>It should end with a line similar to this one:
-<pre></pre>
+<pre>-llagrangian -lfiniteVolume -lgenericPatchFields -lmeshTools -L/home/user/OpenFOAM/user-2.1.0/platforms/linux64GccDPOpt/lib -ltecio -lOpenFOAM -ldl   -lm -o /home/user/OpenFOAM/user-2.1.0/platforms/linux64GccDPOpt/bin/foamToTecplot360</pre>
 </li>
 
-<li>
+<li>If all went well, you can now learn how ot use this conversor by running the following command:
+<pre>foamToTecplot360 -help</pre>
 </li>
 </ol>
 
 
 == Using Zip or Tar ==
-TODO...
+Run the following instructions as normal user:
+<ol>
+<li>
+Assuming you have a working OpenFOAM installation, run:
+<pre>mkdir -p $WM_PROJECT_USER_DIR
+cd $WM_PROJECT_USER_DIR</pre>
+</li>
+
+<li>Now, depending on the version of OpenFOAM you've got, download the respective package you need.
+<ul>
+<li>For OpenFOAM 1.7.0, 1.7.1 and 1.7.x, run either one of the following group of lines:
+<pre># If you want to download in zip format
+wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of17.zip"
+unzip of17
+
+# If you want to download in tar format
+wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of17.tar.gz"
+tar -xf of17.tar.gz</pre>
+
+Then to into the newly unpacked folder:
+<pre>cd localFoamToTecplot360-of17</pre>
+</li>
+
+<li>For OpenFOAM 2.0.0, 2.0.1 and 2.0.x, run either one of the following group of lines:
+<pre># If you want to download in zip format
+wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of20.zip"
+unzip of20
+
+# If you want to download in tar format
+wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of20.tar.gz"
+tar -xf of20.tar.gz</pre>
+
+Then to into the newly unpacked folder:
+<pre>cd localFoamToTecplot360-of20</pre>
+</li>
+
+<li>For OpenFOAM 2.1.0, 2.1.1 and 2.1.x, run either one of the following group of lines:
+<pre># If you want to download in zip format
+wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of21.zip"
+unzip of21
+
+# If you want to download in tar format
+wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of21.tar.gz"
+tar -xf of21.tar.gz</pre>
+
+Then to into the newly unpacked folder:
+<pre>cd localFoamToTecplot360-of21</pre>
+</li>
+
+</ul>
+</li>
+
+<li>Now you can launch the build process:
+<pre>./Allwmake</pre>
+It will do everything pretty much autonomous, although midway it asks for you to press the ''Enter'' keyboard key when the <tt>libtecio</tt> library is finished unpacking.
+</li>
+
+<li>It should end with a line similar to this one:
+<pre>-llagrangian -lfiniteVolume -lgenericPatchFields -lmeshTools -L/home/user/OpenFOAM/user-2.1.0/platforms/linux64GccDPOpt/lib -ltecio -lOpenFOAM -ldl   -lm -o /home/user/OpenFOAM/user-2.1.0/platforms/linux64GccDPOpt/bin/foamToTecplot360</pre>
+</li>
+
+<li>If all went well, you can now learn how ot use this conversor by running the following command:
+<pre>foamToTecplot360 -help</pre>
+</li>
+</ol>
