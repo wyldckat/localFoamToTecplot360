@@ -77,4 +77,8 @@ doc/[Dd]oxygen/man
 # ignore .tags in the main directory
 /.tags
 
+# ignore tecio library code and zip file
+tecio/
+tecio2009.zip
+
 # end-of-file
