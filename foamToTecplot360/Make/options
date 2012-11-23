@@ -1,0 +1,13 @@
+EXE_INC = \
+    -I$(realpath ../tecio/tecsrc/lnInclude) \
+    -I$(LIB_SRC)/lagrangian/basic/lnInclude \
+    -I$(LIB_SRC)/finiteVolume/lnInclude \
+    -I$(LIB_SRC)/meshTools/lnInclude
+
+
+EXE_LIBS = \
+    -llagrangian \
+    -lfiniteVolume \
+    -lgenericPatchFields \
+    -lmeshTools \
+    -L$(FOAM_USER_LIBBIN) -ltecio

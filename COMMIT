@@ -1,0 +1,7 @@
+https://github.com/OpenFOAM/OpenFOAM-2.0.x
+
+commit 97cf67d6993275c1335885b462745bf212fcd025
+Author: mattijs <mattijs>
+Date:   Tue Feb 14 09:09:17 2012 +0000
+
+    BUG: UListIO: byteSize overflowing on really big faceLists
