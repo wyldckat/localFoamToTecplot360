@@ -1,8 +1,0 @@
---- foamToTecplot360/Make/files
-+++ foamToTecplot360/Make/files
-@@ -2,4 +2,4 @@
- vtkMesh.C
- foamToTecplot360.C
- 
--EXE = $(FOAM_APPBIN)/foamToTecplot360
-+EXE = $(FOAM_USER_APPBIN)/foamToTecplot360
