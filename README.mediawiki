@@ -17,4 +17,14 @@ The code contained in this repository is following the same license as OpenFOAM,
 
 
 = Installation =
+'''Note''': The code available in this repository has only been tested on Linux and is not intended to be used on Mac OS X and Windows. Nonetheless, further adaptations may be  put into place when the time comes.
+
+There are two ways of downloading this code:
+* [#Using Git]
+* [#Using Zip or Tar]
+
+== Using Git ==
+TODO...
+
+== Using Zip or Tar ==
 TODO...
