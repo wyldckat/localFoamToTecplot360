@@ -22,20 +22,28 @@ cd ${0%/*} || exit 1
 #------------------------------------------------------------------------------
 
 # download and unpack zip file if required
-if [ ! -d ${packageDir} ]
+if [ ! -d tecio ]
 then
     wget -c "$url" -O "$zipFile"
 
     if [ -e $zipFile ]
     then
         echo "unpacking '$zipFile'"
+        
         unzip $zipFile
+        
         echo "finished unpacking '$zipFile'"
+
     else
         echo "no '$zipFile' to unpack"
     fi
 fi
 
+echo " "
 echo "For more information about the TecIO library, visit:"
 echo "   http://www.tecplot.com/Downloads/TecIOLibrary.aspx"
+echo " "
+echo "Press Enter to continue..."
+read a
+
 # ----------------------------------------------------------------- end-of-file

@@ -2,4 +2,4 @@ tecplotWriter.C
 vtkMesh.C
 foamToTecplot360.C
 
-EXE = $(FOAM_APPBIN)/foamToTecplot360
+EXE = $(FOAM_USER_APPBIN)/foamToTecplot360
