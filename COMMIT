@@ -1,0 +1,7 @@
+https://github.com/OpenCFD/OpenFOAM-1.7.x/
+
+commit d08d3c27ccda228b4d41cf13212e6efc4f419b0e
+Author: mattijs <mattijs>
+Date:   Thu Jul 14 22:08:27 2011 +0100
+
+    ENH: patchCloud: return pTraits<Type>::max for unfound points
