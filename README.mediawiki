@@ -1,16 +1,15 @@
 = localFoamToTecplot360 =
 
-This is an adaptation of <tt>foamToTecplot360</tt> from the original [http://www.openfoam.org OpenFOAM], designed for those using the [http://www.openfoam.org/download/ Debian/RPM] installation packages of OpenFOAM. This adaptation in no way supported by the original authors and trademark holders, namely:
+This is an adaptation of <tt>foamToTecplot360</tt> from the original [http://www.openfoam.org OpenFOAM(R)], designed for those using the [http://www.openfoam.org/download/ Debian/RPM] installation packages of OpenFOAM. This adaptation in no way supported by the original authors and trademark holders, namely:
 * OPENFOAM and OpenCFD are registered trademarks of OpenCFD Ltd (ESI Group).
 * Tecplot is a registered trademark of Tecplot, Inc.
 
-The original sources used in this [https://github.com/wyldckat/localFoamToTecplot360 repository], have been retrieved from:
+Most of the original sources used in this [https://github.com/wyldckat/localFoamToTecplot360 repository], have been retrieved from:
 * [https://github.com/OpenFOAM/OpenFOAM-2.1.x]
 * [https://github.com/OpenFOAM/ThirdParty-2.1.x]
 * [https://github.com/OpenFOAM/OpenFOAM-2.0.x]
 * [https://github.com/OpenFOAM/ThirdParty-2.0.x]
 * [https://github.com/OpenCFD/OpenFOAM-1.7.x]
-* [https://github.com/OpenCFD/ThirdParty-1.7.x]
 
 
 = License =
