@@ -19,12 +19,51 @@ The code contained in this repository is following the same license as OpenFOAM,
 = Installation =
 '''Note''': The code available in this repository has only been tested on Linux and is not intended to be used on Mac OS X and Windows. Nonetheless, further adaptations may be  put into place when the time comes.
 
-There are two ways of downloading this code:
+There are two ways of downloading and installing this code:
 * [https://github.com/wyldckat/localFoamToTecplot360#using-git Using Git]
 * [https://github.com/wyldckat/localFoamToTecplot360#using-zip-or-tar Using Zip or Tar]
 
+
 == Using Git ==
-TODO...
+Run the following instructions as normal user:
+<ol>
+<li>
+Assuming you have <tt>git</tt> already installed and a working OpenFOAM installation, run:
+<pre>mkdir -p $WM_PROJECT_USER_DIR
+cd $WM_PROJECT_USER_DIR
+git clone git://github.com/wyldckat/localFoamToTecplot360.git
+cd localFoamToTecplot360</pre>
+</li>
+
+<li>Now check the list of branches that exist:
+<pre>git branch -a</pre>
+You should see something like this:
+<pre>* master
+  remotes/origin/master
+  remotes/origin/of17
+  remotes/origin/of20
+  remotes/origin/of21
+</pre>
+The ones that start with <tt>of</tt> indicate for which versions of OpenFOAM this repository is currently working.
+</li>
+
+<li>So for example, if you are using OpenFOAM 2.1.1, then ''checkout'' the respective branch:
+<pre>git checkout of21</pre>
+</li>
+
+<li>Now you can launch the build process:
+<pre>./Allwmake</pre>
+It will do everything pretty much autonomous, although midway it asks for you to press the ''Enter'' keyboard key when the <tt>libtecio</tt> library is built.
+</li>
+
+<li>It should end with a line similar to this one:
+<pre></pre>
+</li>
+
+<li>
+</li>
+</ol>
+
 
 == Using Zip or Tar ==
 TODO...
