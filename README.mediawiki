@@ -15,7 +15,7 @@ The code contained in this repository is following the same license as OpenFOAM,
 
 
 = Installation =
-'''Note''': The code available in this repository has only been tested on Linux, might work on Mac OS X and is not intended to be used on Windows. Nonetheless, further adaptations may be put into place when the time comes.
+'''Note''': The code available in this repository has been tested on Linux, should work on Mac OS X (as seen [http://www.cfd-online.com/Forums/openfoam-post-processing/68061-foamtotecplot360-3.html#post412865 here]) and is not intended to be used on Windows. Nonetheless, further adaptations may be put into place when the time comes.
 
 There are two ways of downloading and installing this code:
 * [https://github.com/wyldckat/localFoamToTecplot360#using-git Using Git]
