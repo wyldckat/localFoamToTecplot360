@@ -1,0 +1,49 @@
+#!/bin/sh
+#------------------------------------------------------------------------------
+#
+# This script is derived from the one at this address:
+#     http://www.openfoam.org/mantisbt/file_download.php?file_id=108&type=bug
+#
+# Script
+#     getTecIO
+#
+# Description
+#     Get TecIO library and unpack it.
+#
+#------------------------------------------------------------------------------
+version=2009
+packageDir=tecio${version}
+zipFile=$packageDir.zip
+url="http://download.tecplot.com/tecio/$version/$zipFile"
+
+#------------------------------------------------------------------------------
+# run from the scripts folder only
+cd ${0%/*} || exit 1
+#------------------------------------------------------------------------------
+
+# download and unpack zip file if required
+if [ ! -d tecio ]
+then
+    wget -c "$url" -O "$zipFile"
+
+    if [ -e $zipFile ]
+    then
+        echo "unpacking '$zipFile'"
+        
+        unzip $zipFile
+        
+        echo "finished unpacking '$zipFile'"
+
+    else
+        echo "no '$zipFile' to unpack"
+    fi
+fi
+
+echo " "
+echo "For more information about the TecIO library, visit:"
+echo "   http://www.tecplot.com/Downloads/TecIOLibrary.aspx"
+echo " "
+echo "Press Enter to continue..."
+read a
+
+# ----------------------------------------------------------------- end-of-file
