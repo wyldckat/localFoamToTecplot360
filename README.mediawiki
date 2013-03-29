@@ -8,6 +8,7 @@ Most of the original sources used in this [https://github.com/wyldckat/localFoam
 * [https://github.com/OpenCFD/OpenFOAM-1.7.x]
 * [https://github.com/OpenFOAM/OpenFOAM-2.0.x]
 * [https://github.com/OpenFOAM/OpenFOAM-2.1.x]
+* [https://github.com/OpenFOAM/OpenFOAM-2.2.x]
 
 
 = License =
@@ -41,6 +42,7 @@ You should see something like this:
   remotes/origin/of17
   remotes/origin/of20
   remotes/origin/of21
+  remotes/origin/of22
 </pre>
 The ones that start with <tt>of</tt> indicate for which versions of OpenFOAM this repository is currently working.
 </li>
@@ -112,6 +114,19 @@ tar -xf of21.tar.gz</pre>
 
 Then go into the newly unpacked folder:
 <pre>cd localFoamToTecplot360-of21</pre>
+</li>
+
+<li>For OpenFOAM 2.2.0 and 2.2.x, run either one of the following group of lines:
+<pre># If you want to download in zip format
+wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of22.zip"
+unzip of22
+
+# If you want to download in tar format
+wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of22.tar.gz"
+tar -xf of22.tar.gz</pre>
+
+Then go into the newly unpacked folder:
+<pre>cd localFoamToTecplot360-of22</pre>
 </li>
 
 </ul>
