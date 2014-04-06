@@ -8,8 +8,12 @@ set -x
 # get tecio library
 ./getTecIO
 
+if [ ! -e tecio/tecsrc/Make ]; then
+  ln -s ../../tecioMake tecio/tecsrc/Make
+fi
+
 # build tecio
-wmake libso tecio/tecsrc/ ../../tecioMake/
+wmake libso tecio/tecsrc/
 
 # build converter
 wmake foamToTecplot360
