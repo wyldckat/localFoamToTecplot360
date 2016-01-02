@@ -9,6 +9,9 @@ Most of the original sources used in this [https://github.com/wyldckat/localFoam
 * [https://github.com/OpenFOAM/OpenFOAM-2.0.x]
 * [https://github.com/OpenFOAM/OpenFOAM-2.1.x]
 * [https://github.com/OpenFOAM/OpenFOAM-2.2.x]
+* [https://github.com/OpenFOAM/OpenFOAM-2.3.x]
+
+This [https://github.com/wyldckat/localFoamToTecplot360 git repository] was brought to you by Bruno Santos (wyldckat@github working at [http://www.bluecape.com.pt blueCAPE Lda]).
 
 
 = License =
@@ -43,6 +46,7 @@ You should see something like this:
   remotes/origin/of20
   remotes/origin/of21
   remotes/origin/of22
+  remotes/origin/of23
 </pre>
 The ones that start with <tt>of</tt> indicate for which versions of OpenFOAM this repository is currently working.
 </li>
@@ -116,7 +120,7 @@ Then go into the newly unpacked folder:
 <pre>cd localFoamToTecplot360-of21</pre>
 </li>
 
-<li>For OpenFOAM 2.2.0 and 2.2.x, run either one of the following group of lines:
+<li>For OpenFOAM 2.2.0 to 2.2.x, run either one of the following group of lines:
 <pre># If you want to download in zip format
 wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of22.zip"
 unzip of22
@@ -127,6 +131,19 @@ tar -xf of22.tar.gz</pre>
 
 Then go into the newly unpacked folder:
 <pre>cd localFoamToTecplot360-of22</pre>
+</li>
+
+<li>For OpenFOAM 2.3.0 to 2.3.x, run either one of the following group of lines:
+<pre># If you want to download in zip format
+wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of23.zip"
+unzip of23
+
+# If you want to download in tar format
+wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of23.tar.gz"
+tar -xf of23.tar.gz</pre>
+
+Then go into the newly unpacked folder:
+<pre>cd localFoamToTecplot360-of23</pre>
 </li>
 
 </ul>
