@@ -11,6 +11,8 @@ Most of the original sources used in this [https://github.com/wyldckat/localFoam
 * [https://github.com/OpenFOAM/OpenFOAM-2.2.x]
 * [https://github.com/OpenFOAM/OpenFOAM-2.3.x]
 
+This [https://github.com/wyldckat/localFoamToTecplot360 git repository] was brought to you by Bruno Santos (wyldckat@github working at [http://www.bluecape.com.pt blueCAPE Lda]).
+
 
 = License =
 The code contained in this repository is following the same license as OpenFOAM, namely the GNU General Public License v3.
