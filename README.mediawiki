@@ -53,6 +53,7 @@ The ones that start with <tt>of</tt> indicate for which versions of OpenFOAM thi
 
 <li>So for example, if you are using OpenFOAM 2.1.1, then ''checkout'' the respective branch:
 <pre>git checkout of21</pre>
+On the other hand, if are using OpenFOAM 2.4, then you can simply use the <tt>of23</tt> branch.
 </li>
 
 <li>Now you can launch the build process:
