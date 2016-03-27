@@ -5,3 +5,6 @@ EXE_INC = \
 
 LIB_LIBS = \
     $(TECIO_LIBS)
+
+$(OBJECTS_DIR)/%.o : %.cpp
+	$(cpptoo)
