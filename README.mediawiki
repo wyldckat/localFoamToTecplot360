@@ -12,6 +12,7 @@ Most of the original sources used in this [https://github.com/wyldckat/localFoam
 * [https://github.com/OpenFOAM/OpenFOAM-2.3.x]
 * [https://github.com/OpenFOAM/OpenFOAM-3.0.x]
 * [https://github.com/OpenFOAM/OpenFOAM-4.x]
+* [https://github.com/OpenFOAM/OpenFOAM-dev]
 
 This [https://github.com/wyldckat/localFoamToTecplot360 git repository] was brought to you by Bruno Santos (wyldckat@github working at [http://www.bluecape.com.pt blueCAPE Lda]).
 
@@ -51,6 +52,7 @@ You should see something like this:
   remotes/origin/of23
   remotes/origin/of30
   remotes/origin/of4
+  remotes/origin/ofdev
 </pre>
 The ones that start with <tt>of</tt> indicate for which versions of OpenFOAM this repository is currently working.
 </li>
@@ -175,6 +177,22 @@ tar -xf of4.tar.gz</pre>
 
 Then go into the newly unpacked folder:
 <pre>cd localFoamToTecplot360-of4</pre>
+</li>
+
+</ul>
+</li>
+
+<li>For OpenFOAM-dev, run either one of the following group of lines:
+<pre># If you want to download in zip format
+wget "https://github.com/wyldckat/localFoamToTecplot360/archive/ofdev.zip"
+unzip ofdev
+
+# If you want to download in tar format
+wget "https://github.com/wyldckat/localFoamToTecplot360/archive/ofdev.tar.gz"
+tar -xf ofdev.tar.gz</pre>
+
+Then go into the newly unpacked folder:
+<pre>cd localFoamToTecplot360-ofdev</pre>
 </li>
 
 </ul>
