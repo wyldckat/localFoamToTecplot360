@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     |
-    \\  /    A nd           | Copyright (C) 2011 OpenFOAM Foundation
+    \\  /    A nd           | Copyright (C) 2011-2016 OpenFOAM Foundation
      \\/     M anipulation  |
 -------------------------------------------------------------------------------
 License
@@ -89,7 +89,7 @@ public:
 
         // Access
 
-            //- whole mesh
+            //- Whole mesh
             const fvMesh& baseMesh() const
             {
                 return baseMesh_;
@@ -156,7 +156,7 @@ public:
                 if (useSubMesh())
                 {
                     tmp<GeoField> subFld = subsetter_.interpolate(fld);
-                    subFld().rename(fld.name());
+                    subFld.ref().rename(fld.name());
                     return subFld;
                 }
                 else
