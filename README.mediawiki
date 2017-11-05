@@ -193,9 +193,6 @@ Then go into the newly unpacked folder:
 <pre>cd localFoamToTecplot360-of5</pre>
 </li>
 
-</ul>
-</li>
-
 <li>For OpenFOAM-dev, run either one of the following group of lines:
 <pre># If you want to download in zip format
 wget "https://github.com/wyldckat/localFoamToTecplot360/archive/ofdev.zip"
