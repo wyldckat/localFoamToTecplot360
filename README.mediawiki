@@ -52,6 +52,7 @@ You should see something like this:
   remotes/origin/of23
   remotes/origin/of30
   remotes/origin/of4
+  remotes/origin/of5
   remotes/origin/ofdev
 </pre>
 The ones that start with <tt>of</tt> indicate for which versions of OpenFOAM this repository is currently working.
@@ -177,6 +178,19 @@ tar -xf of4.tar.gz</pre>
 
 Then go into the newly unpacked folder:
 <pre>cd localFoamToTecplot360-of4</pre>
+</li>
+
+<li>For OpenFOAM 5.0 to 5.x, run either one of the following group of lines:
+<pre># If you want to download in zip format
+wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of5.zip"
+unzip of4
+
+# If you want to download in tar format
+wget "https://github.com/wyldckat/localFoamToTecplot360/archive/of5.tar.gz"
+tar -xf of5.tar.gz</pre>
+
+Then go into the newly unpacked folder:
+<pre>cd localFoamToTecplot360-of5</pre>
 </li>
 
 </ul>
